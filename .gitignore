@@ -2,4 +2,5 @@
 
 .idea
 /venv
-/resources
+/resources/configuration.txt
+/src/main/com.fruitella.tgBot/chat/logfile.log
