@@ -46,6 +46,48 @@ class Config:
         await message.answer(Config.message.JAVA_LINK)
         logging.debug(message.text)
 
+    @dp.message_handler(commands=['python'])
+    async def pythonLinkCommand(message: types.Message):
+        await message.answer(Config.message.PYTHON_LINK)
+        logging.debug(message.text)
+
+    @dp.message_handler(commands=['sharp'])
+    async def sharpLinkCommand(message: types.Message):
+        await message.answer(Config.message.SHARP_LINK)
+        logging.debug(message.text)
+
+    @dp.message_handler(commands=['linux'])
+    async def linuxLinkCommand(message: types.Message):
+        await message.answer(Config.message.LINUX_LINK)
+        logging.debug(message.text)
+
+    @dp.message_handler(commands=['docker'])
+    async def dockerLinkCommand(message: types.Message):
+        await message.answer(Config.message.DOCKER_LINK)
+        logging.debug(message.text)
+
+    @dp.message_handler(commands=['db'])
+    async def dataBaseLinkCommand(message: types.Message):
+        await message.answer(Config.message.DATA_BASE_LINK)
+        logging.debug(message.text)
+
+    @dp.message_handler(commands=['confluence'])
+    async def confluenceLinkCommand(message: types.Message):
+        await message.answer(Config.message.CONFLUENCE_LINK)
+        logging.debug(message.text)
+
+    @dp.message_handler(commands=['admin'])
+    async def activeDirectoryLinkCommand(message: types.Message):
+        await message.answer(Config.message.AD_LINK)
+        logging.debug(message.text)
+
+    @dp.message_handler(commands=['cv'])
+    async def cvLinkCommand(message: types.Message):
+        await message.answer(Config.message.CV_LINK)
+        logging.debug(message.text)
+
+
+
 
 if __name__ == '__main__':
     conf = Config
