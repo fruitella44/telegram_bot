@@ -2,5 +2,6 @@
 
 .idea
 /venv
-/resources/configuration.txt
+/resources/telegram_API.txt
+/resources/openAI_API.txt
 /src/main/com.fruitella.tgBot/chat/logfile.log
